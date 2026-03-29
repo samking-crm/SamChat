@@ -5,11 +5,8 @@ import useChatStore from '../store/chatStore';
 const ChatList = () => {
   const { chats, setCurrentChat, currentChat, onlineUsers } = useChatStore();
 
-  const chatsData = [
-    { id: '1', name: 'John Doe', lastMessage: 'Hey! How are you?', time: '2m', online: true, unread: 2 },
-    { id: '2', name: 'Jane Smith', lastMessage: 'See you tomorrow', time: '1h', online: false, unread: 0 },
-    { id: '3', name: 'Group Chat', lastMessage: 'Meeting at 3pm', time: '5h', online: true, unread: 1 },
-  ];
+  const chatsData = 
+    
 
   return (
     <div className="w-full md:w-80 bg-white dark:bg-secondary border-r border-gray-200 dark:border-gray-700 flex flex-col h-screen">
